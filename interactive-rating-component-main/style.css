@@ -1,0 +1,77 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass';
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.container{
+    padding-top: 20px;
+    width: 375px;
+    background-color: hsl(212, 30%, 13%);
+    border-radius: 15px;
+    margin:  0px auto;
+}
+.logo-box{
+    position: relative;
+    margin: 0 20px;
+    width: 40px;
+    height: 40px;
+    background-color:   hsl(214, 13%, 22%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 13px;
+}
+.title{
+    color:hsl(0, 0%, 100%);
+    width: calc(100% - 40px);
+    margin: 20px;
+    font-size: 25px;
+}
+.text{
+    font-family: 'Overpass';
+    color:  hsl(216, 12%, 54%);
+    line-height: 22px;
+    width: calc(100% - 40px);
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 400, 700;
+}
+.number-container{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    margin: 0 20px;
+}
+.number{
+    width: 40px;
+    height: 40px;
+    background-color:   hsl(204, 13%, 19%);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: hsl(217, 12%, 63%);
+    border: none;
+}
+.btn-submit{
+    bottom: 40px;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    line-height: 40px;
+    letter-spacing: 2px;
+    background-color: hsl(25, 97%, 53%);
+    width: calc(100% - 40px);
+    margin: 20px;
+}
