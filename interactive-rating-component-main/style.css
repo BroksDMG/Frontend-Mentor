@@ -54,14 +54,24 @@ body{
     margin: 0 20px;
 }
 .number{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color:   hsl(204, 13%, 19%);
     border-radius: 50%;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
     color: hsl(217, 12%, 63%);
     border: none;
+    cursor: pointer;
+    caret-color: transparent;
+}
+.toggleNumber{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+.number:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
 }
 .btn-submit{
     bottom: 40px;
@@ -74,4 +84,41 @@ body{
     background-color: hsl(25, 97%, 53%);
     width: calc(100% - 40px);
     margin: 20px;
+    cursor: pointer;
+    caret-color: transparent;
+}
+/* //////////////////////////////Second Page////////////////// */
+.secondPages-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.illustriation-th{
+    caret-color: transparent;
+    height: 108px;
+    width: 162px;
+    margin: 10px 0 30px;
+}
+.output-text{
+    border-radius: 50px;
+    color: hsl(25, 41%, 52%);
+    background-color: hsl(204, 13%, 19%);
+    padding: 8px 10px;
+    font-size: 14px;
+}
+.th-end{
+    color: hsl(0, 0%, 100%);
+    margin: 20px 0 10px;
+    font-size: 25px;
+}
+.prgf-end{
+    text-align: center;
+    font-family: 'Overpass';
+    color:  hsl(216, 12%, 54%);
+    line-height: 22px;
+    width: calc(100% - 40px);
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400, 700;
 }
