@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-90{
+    width: 375px;
+}
+.left-1875{
+    left: 187,5px;
+}
+.w-978{
+    width: 978px;
+}
