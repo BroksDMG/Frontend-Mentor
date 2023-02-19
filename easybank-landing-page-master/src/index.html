@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Easybank landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,7 +15,9 @@
   </style>
 </head>
 <body>
+<div class=" ">
 
+  <!-- 
   Home
   About
   Contact
@@ -78,24 +80,53 @@
   By Claire Robinson
   Our invite-only Beta accounts are now live!
   After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
-  It’s easy to request an invite through the site ...
+  It’s easy to request an invite through the site ... -->
 
   
 
-  About Us
-  Contact
-  Blog
-  Careers
-  Support
-  Privacy Policy
-
-  Request Invite
-
-  © Easybank. All Rights Reserved
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<footer class="bg-DarkBlue w-full h-32 absolute bottom-0 flex p-6">
+  <div class=" w-32 mx-14 pt-2">
+    <div class=" ">
+      <a href="#" class="text-White relative ">
+        <img  src="../images/logo.svg" class="w-40" alt=""><p class="absolute -top-2 left-8 text-lg font-bold font-sans">easybank</p> 
+      </a>
+    </div>
+    <div class="flex justify-between mt-7 items-center">
+      <a href="#" class=" w-4">
+      <img src="../images/icon-facebook.svg" alt="">
+      </a>
+      <a href="#" class=" w-4">
+        <img src="../images/icon-youtube.svg" alt="">
+      </a>
+      <a href="#" class=" w-4">
+        <img src="../images/icon-twitter.svg" alt="">
+      </a>
+      <a href="#" class=" w-4">
+        <img src="../images/icon-pinterest.svg" alt="">
+      </a>
+      <a href="#" class=" w-4">
+        <img src="..//images/icon-instagram.svg" alt="">
+      </a>
+    </div>
   </div>
+  <div class="flex flex-col text-White  mx-14  text-xs  justify-between pt-1 mb-3">
+    <p class="">About Us</p>
+    <p>Contact</p>
+    <p>Blog</p>
+  </div>
+  <div class="flex flex-col text-White  mx-14  text-xs  justify-between pt-1 mb-3">
+    <p>Careers</p>
+    <p>Support</p>
+    <p>Privacy Policy</p>
+  </div>
+
+  <div class="flex flex-col items-end mx-14  w-52">
+    <button class="bg-gradient-to-r from-LimeGreen to-BrightCyan w-40 h-8 rounded-2xl text-White  text-xs tracking-wider cursor-pointer ">Request Invite</button>
+
+    <p class="text-xs text-White mt-4 tracking-wider">© Easybank. All Rights Reserved</p>  
+  </div>
+</footer>
+
+</div>
 </body>
 </html>
