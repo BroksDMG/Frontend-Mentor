@@ -2,3 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.gray {
+    --svg-color: brightness(1) invert(0.5)
+  }
