@@ -14,6 +14,12 @@ module.exports = {
               },
             fontFamily:{
               'customFont':['Public', 'Sans']
+            },
+            backgroundImage:{
+              'cash-article':"url('../images/image-currency.jpg')",
+              'restaurant-article':"url('../images/image-restaurant.jpg')",
+              'plane-article':"url('../images/image-plane.jpg')",
+              'confetti-article':"url('../images/image-confetti.jpg')",
             }
             },
   },
