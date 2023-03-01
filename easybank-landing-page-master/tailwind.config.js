@@ -13,13 +13,17 @@ module.exports = {
               BrightCyan: "hsl(192, 70%, 51%)",
               },
             fontFamily:{
-              'customFont':['Public', 'Sans']
+              'customFont':['Public','Sans']
             },
             backgroundImage:{
               'cash-article':"url('../images/image-currency.jpg')",
               'restaurant-article':"url('../images/image-restaurant.jpg')",
               'plane-article':"url('../images/image-plane.jpg')",
               'confetti-article':"url('../images/image-confetti.jpg')",
+              'icon-budgeting':"url('../images/icon-budgeting.svg')",
+              'icon-online':"url('../images/icon-online.svg')",
+              'icon-api':"url('../images/icon-api.svg')",
+              'icon-onboarding':"url('../images/icon-onboarding.svg')",
             }
             },
   },
