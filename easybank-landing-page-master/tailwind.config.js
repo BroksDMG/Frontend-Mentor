@@ -24,6 +24,8 @@ module.exports = {
               'icon-online':"url('../images/icon-online.svg')",
               'icon-api':"url('../images/icon-api.svg')",
               'icon-onboarding':"url('../images/icon-onboarding.svg')",
+              'desktop-intro':"url('../images/bg-intro-desktop.svg')",
+              'phons-intro':"url('../images/image-mockups.png')",
             }
             },
   },
